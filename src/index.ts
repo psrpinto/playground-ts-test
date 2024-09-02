@@ -1,5 +1,4 @@
-const world = 'world';
+import {PlaygroundClient, startPlaygroundWeb} from "@wp-playground/client";
 
-export function hello(who: string = world): string {
-    return `Hello ${who}! `;
-}
+const iframe = 'foo' as unknown as HTMLIFrameElement;
+const client: PlaygroundClient = startPlaygroundWeb({iframe, remoteUrl: ""});
