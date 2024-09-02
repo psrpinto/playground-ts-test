@@ -10,5 +10,8 @@
   "description": "",
   "devDependencies": {
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@wp-playground/client": "^0.9.35"
   }
 }
